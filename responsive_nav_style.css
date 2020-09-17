@@ -1,0 +1,282 @@
+body{
+    background-color: #f8f8f8;
+}
+.content{
+    margin:0 2rem;
+}
+
+.container{
+    max-width: 1920px;
+    
+    
+    
+   
+    /* display: flex;
+    align-items: flex-start;
+    margin: auto;
+    justify-content: center; */
+}
+main{
+   
+    width: 65%;
+ 
+}
+article{
+    padding: 1.5rem 0;
+}
+aside{
+    
+    width: 25%;
+
+}
+
+
+/* typography */
+h4{
+    font-family:'Sacramento', cursive;
+    color: #FF0000;
+    font-weight: 580;
+    font-size: 2.5rem;
+    margin: 0;
+
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    /* font-weight: 500; */
+}
+p{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    
+}
+.article-featured-title{
+    font-size: 1.5rem;
+
+}
+
+.author-info-name{
+   
+    color: #FF0000;
+}
+.author-info-tagline{
+   
+    color: #FF0000;
+}
+/* 
+
+/* navbar section */
+
+header{
+    background-color: #f8f8f8;
+}
+
+.navbar{
+    width:90%;
+    margin-left:2em;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+.container-flex{
+    display: flex;
+    margin: 0 1rem;
+    align-items: flex-start;
+}
+
+
+
+nav{
+    margin-left:2em;
+    padding: 1em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #707070;
+    text-decoration: none; 
+    margin-left: 2rem;
+    
+
+}
+a:hover,
+a:focus
+{
+    color: #FF0000;
+    text-decoration: none;
+}
+/* .subtitle{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1792d2;
+    font-weight:900;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+
+} */
+
+
+/* blog-content */
+/* main{
+    margin: 1.5rem;
+    width:70%;
+
+} */
+
+img{
+    border-radius: 0.5em;
+    max-width: 100%;
+    display: inline;
+    
+}
+.article-featured{
+    width: 90%;
+}
+.article-feat-image{
+    width: 100%;
+    max-width: 700px;
+    
+    border-radius: 1.5em;
+}
+.article-body{
+    width:90%;
+}
+
+
+.links{
+    text-decoration: none;
+    color: gray;
+    
+}
+.article-recent{
+    display: flex;
+    
+}
+.article-recent-main{
+    width:70%;
+
+}
+.article-recent-secondary{
+    width:25%;
+}
+.article-title{
+    margin: 0;
+}
+.article-info{
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+
+}
+.article-image{
+    width:100%;
+    max-width: 130px;
+}
+.sidebar-widget{
+    padding: 1.5rem 0;
+    text-align: cente
+}
+
+.author-info{
+    width:100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin: 1rem 0;
+    padding: 1em;
+   
+}
+.author-info-tagline{
+    margin: 0.8em 0;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+.author-img{
+    width:40%;
+    display: block;
+    margin: 0 auto;
+}
+.widget-image{
+    width:35%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.quote{
+    width: 100%;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin: 1rem 0;
+    padding: 1em;
+    text-align: center;
+}
+.widget-title{
+    margin: 0.8em 0;
+
+}
+.widget-recent-post{
+    width: 100;
+    margin: 1rem 0;
+    padding: 1em;
+    text-align: center;
+}
+@media (max-width:660px){
+    body{
+        background-color: #f8f8f8;
+    }
+    main{
+        width:85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    aside{
+        width:85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+   .container-flex{
+        flex-direction: column;
+        
+        align-items: center;
+       
+
+    }
+    .article-recent{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .article-recent-secondary{
+        width:70%;
+        border-radius: 1em;
+    }
+
+    h4{
+        text-align: center;
+    }
+
+    nav{
+        margin: auto;
+        
+        flex-direction: column;
+    }
+    nav a{
+        margin:auto;
+    }
+    .author-info{
+        width: 80%;
+        margin: auto;
+        padding: auto;
+    }
+
+   
+}
+
+
+.footer-bg{
+    background-color: #f8f8f8;
+
+}
