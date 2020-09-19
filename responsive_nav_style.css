@@ -2,7 +2,7 @@ body{
     background-color: #f8f8f8;
 }
 .content{
-    margin:0 2rem;
+    margin:0 1rem;
 }
 
 .container{
@@ -148,27 +148,25 @@ img{
 .links{
     text-decoration: none;
     color: gray;
-    
+    border-radius: 3em;
+    margin: 1em 0;
+    text-align: left;
 }
 .article-recent{
     display: flex;
     
 }
 .article-recent-main{
-    width:70%;
+    width:65%;
 
 }
 .article-recent-secondary{
-    width:25%;
+    width:30%;
 }
 .article-title{
     margin: 0;
 }
-.article-info{
-    font-size: 0.75rem;
-    margin-bottom: 1rem;
 
-}
 .article-image{
     width:100%;
     max-width: 130px;
@@ -180,9 +178,11 @@ img{
 
 .author-info{
     width:100%;
-    text-align: center;
+    max-width: 270px;
+    text-align:center;
+    font-size: 0.75rem;
     background-color: white;
-    border-radius: 1.5rem;
+    border-radius: 1.7rem;
     margin: 1rem 0;
     padding: 1em;
    
@@ -198,15 +198,20 @@ img{
     display: block;
     margin: 0 auto;
 }
+.auhtor-info-content{
+    text-align: left;
+    margin-bottom: 1em;
+}
 .widget-image{
-    width:35%;
+    width:55%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0.7rem;
 }
 .quote{
     width: 100%;
+    max-width: 270px;
     background-color: white;
-    border-radius: 1.5rem;
+    border-radius: 1.7rem;
     margin: 1rem 0;
     padding: 1em;
     text-align: center;
@@ -226,14 +231,17 @@ img{
         background-color: #f8f8f8;
     }
     main{
-        width:85%;
+        width:90%;
         margin-left: auto;
         margin-right: auto;
     }
     aside{
-        width:85%;
+        width:90%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .title{
+        font-size: 1rem;
     }
 
 
@@ -244,14 +252,17 @@ img{
        
 
     }
+
     .article-recent{
-        flex-direction: column-reverse;
+        
         align-items: center;
         
     }
-    .article-recent-secondary{
-        width:70%;
+    .article{
         border-radius: 1em;
+    }
+    .article-recent-secondary{
+        width: 70px;
     }
 
     h4{
@@ -267,9 +278,18 @@ img{
         margin:auto;
     }
     .author-info{
-        width: 80%;
+        width: 90%;
+        margin: 1rem auto;
+        padding: auto;
+        text-align:center;
+    }
+    .quote{
+        width: 90%;
         margin: auto;
         padding: auto;
+        text-align:center;
+    }
+
     }
 
    
